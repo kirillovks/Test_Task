@@ -13,3 +13,4 @@ venv/
 tmp/
 images/
 logs/
+Other_Tasks/ml_task/data/cifar-10-python.tar.gz
