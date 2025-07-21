@@ -1,0 +1,15 @@
+# python, IDE and envs
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.idea/
+.vscode/
+.env
+*.env
+**/.ipynb_checkpoints/
+
+# data and logs
+tmp/
+images/
+logs/

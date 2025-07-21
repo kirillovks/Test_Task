@@ -1,0 +1,15 @@
+# python, IDE and envs
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.idea/
+.vscode/
+.env
+*.env
+.git/
+
+# data and logs
+tmp/
+images/
+logs/

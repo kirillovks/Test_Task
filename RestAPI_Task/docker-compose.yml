@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./tmp:/app/tmp
+      - ./images:/app/images
+      - ./logs:/app/logs
+
